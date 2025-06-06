@@ -1,24 +1,49 @@
-# BugForge
-A CLI tool for logging bugs with export to TXT, CSV, and JSON.
-# Bug Logger CLI 🐛📝
+# BugForge 🐛🛠️  
+A simple and powerful CLI tool for logging bugs — designed for manual QA testers, indie devs, or anyone tired of dumping bugs into spreadsheets.
 
-A simple and powerful command-line tool for logging bugs — designed for manual QA testers, indie devs, or anyone tired of copy-pasting to spreadsheets.
+---
 
 ## 💡 Features
 
 - Generates unique Bug IDs with timestamp
-- Supports export to `.txt`, `.csv`, and `.json`
-- Input validation for cleaner bug reports
-- Supports attachments (screenshots, videos)
-- CLI-friendly, portable, no dependencies
+- Input validation for clean and complete bug reports
+- Exports to `.txt`, `.csv`, and `.json`
+- Supports attachments (screenshots, video links)
+- CLI-friendly, portable, and has **zero dependencies**
 
-## 🛠️ Usage
+---
+
+## 🛠️ How to Use
 
 Run in terminal or inside VSCode:
 
 ```bash
 python BugForge.py
----
 
-🧑‍🔧 Made with 💻 and ☕ by [HenriQA](https://github.com/HenriQA)  
-MIT License
+
+You’ll be prompted to enter:
+
+Reporter name
+Bug title
+Severity (validated)
+Platform/device
+Expected vs. actual result
+Reproduction steps
+Optional attachments
+File format output options (TXT, CSV, JSON)
+All bug logs are saved locally with timestamp and structured formatting.
+
+📁 Output Examples
+bug_reports.txt – human-readable logs
+bug_reports.csv – spreadsheet-friendly format
+bug_reports.json – structured data for automation or analytics
+
+⚙️ Coming Soon Ideas
+CLI flags (--csv, --json, --silent)
+Status update support (e.g. “Closed”, “In Progress”)
+Config presets and reusable sessions
+GUI wrapper for non-CLI users
+
+👤 Author
+🧑‍🔧 Made with 💻 and ☕ by HenriQA
+📜 Licensed under the MIT License
