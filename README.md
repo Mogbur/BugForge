@@ -27,15 +27,25 @@ python BugForge.py
 You’ll be prompted to enter:
 
 Reporter name or email
+
 Bug title
+
 Severity (Low, Medium, High)
+
 Bug type (UI, Logic, Crash, Security, Performance, Other)
+
 Reproducibility (Always, Sometimes, Rarely, Unable to reproduce)
+
 Platform/Device (e.g., Windows 10, iPhone 13)
+
 Expected vs. actual result
+
 Optional attachment file names or URLs
+
 Steps to reproduce
+
 Output file format (TXT, CSV, JSON)
+
 
 📁 Output Examples
 bug_reports.txt – readable format for humans
