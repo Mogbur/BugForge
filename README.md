@@ -1,16 +1,19 @@
 # BugForge 🐛🛠️  
-A simple and powerful CLI tool for logging bugs — designed for manual QA testers, indie devs, or anyone tired of dumping bugs into spreadsheets.
+A simple and powerful CLI tool for logging bugs — designed for manual QA testers, indie devs, or anyone tired of dumping bugs into spreadsheets.  
 Think of BugForge like a pocket notebook for bugs — not a full management system like JIRA or Asana.
 
 ---
 
 ## 💡 Features
 
-- Generates unique Bug IDs with timestamp
-- Input validation for clean and complete bug reports
-- Exports to `.txt`, `.csv`, and `.json`
-- Supports attachments (screenshots, video links)
-- CLI-friendly, portable, and has **zero dependencies**
+- ✅ Generates unique Bug IDs with timestamps
+- ✅ Input validation for clean and complete bug reports
+- ✅ Includes severity, bug type, reproducibility, attachments, and platform
+- ✅ Exports to `.txt`, `.csv`, and `.json`
+- ✅ Saves to a shared file or custom-named file per session
+- ✅ CLI-friendly, portable, and zero dependencies (just Python)
+- ✅ Supports structured bug steps and attachments
+- ✅ Prints bug summary at the end
 
 ---
 
@@ -20,31 +23,34 @@ Run in terminal or inside VSCode:
 
 ```bash
 python BugForge.py
-
-
+```
 You’ll be prompted to enter:
 
-Reporter name
+Reporter name or email
 Bug title
-Severity (validated)
-Platform/device
+Severity (Low, Medium, High)
+Bug type (UI, Logic, Crash, Security, Performance, Other)
+Reproducibility (Always, Sometimes, Rarely, Unable to reproduce)
+Platform/Device (e.g., Windows 10, iPhone 13)
 Expected vs. actual result
-Reproduction steps
-Optional attachments
-File format output options (TXT, CSV, JSON)
-All bug logs are saved locally with timestamp and structured formatting.
+Optional attachment file names or URLs
+Steps to reproduce
+Output file format (TXT, CSV, JSON)
 
 📁 Output Examples
-bug_reports.txt – human-readable logs
-bug_reports.csv – spreadsheet-friendly format
-bug_reports.json – structured data for automation or analytics
+bug_reports.txt – readable format for humans
+bug_reports.csv – spreadsheet-friendly
+bug_reports.json – structured for automation and tools
 
-⚙️ Coming Soon Ideas
-CLI flags (--csv, --json, --silent)
-Status update support (e.g. “Closed”, “In Progress”)
-Config presets and reusable sessions
+⚙️ Potential Future Additions
+--csv, --json, --silent CLI flags
+Status editing (e.g. "Closed", "In Progress")
+Editable JSON log parser
+Config presets and reusable session profiles
 GUI wrapper for non-CLI users
 
 👤 Author
 🧑‍🔧 Made with 💻 and ☕ by HenriQA
 📜 Licensed under the MIT License
+
+BugForge is best suited for solo testers, small QA teams, or indie developers who need a fast, simple way to log bugs without full-scale tools like JIRA or Asana.
