@@ -1,5 +1,6 @@
 # BugForge 🐛🛠️  
 A simple and powerful CLI tool for logging bugs — designed for manual QA testers, indie devs, or anyone tired of dumping bugs into spreadsheets.
+Think of BugForge like a pocket notebook for bugs — not a full management system like JIRA or Asana.
 
 ---
 
