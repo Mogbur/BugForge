@@ -26,6 +26,7 @@ python BugForge.py
 ```
 You’ll be prompted to enter:
 
+
 Reporter name or email
 
 Bug title
@@ -49,13 +50,16 @@ Output file format (TXT, CSV, JSON)
 
 📁 Output Examples
 
+
 bug_reports.txt – readable format for humans
 
 bug_reports.csv – spreadsheet-friendly
 
 bug_reports.json – structured for automation and tools
 
+
 ⚙️ Potential Future Additions
+
 
 --csv, --json, --silent CLI flags
 
