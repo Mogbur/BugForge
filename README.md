@@ -48,15 +48,23 @@ Output file format (TXT, CSV, JSON)
 
 
 📁 Output Examples
+
 bug_reports.txt – readable format for humans
+
 bug_reports.csv – spreadsheet-friendly
+
 bug_reports.json – structured for automation and tools
 
 ⚙️ Potential Future Additions
+
 --csv, --json, --silent CLI flags
+
 Status editing (e.g. "Closed", "In Progress")
+
 Editable JSON log parser
+
 Config presets and reusable session profiles
+
 GUI wrapper for non-CLI users
 
 👤 Author
